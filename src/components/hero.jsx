@@ -30,9 +30,14 @@ const hero = () => {
                 We provide reliable and convenient 24/7 airport taxi services in Italy. Our fleet of modern vehicles and experienced drivers will ensure you have a safe, comfortable, and stress-free journey to your destination. 
                 </p>
 
-                <button className='open-fleet-btn'>
-                    Open Fleet
+                <button className='open-fleet-btn' >
+                    
+                    <div className='open-fleet-flex'>
+                    <p>Open Fleet</p>
                     <span> <img src={UpsideRightArrow} alt='upside-right-arrow'></img></span>
+                    </div>
+                    
+                    
                 </button>
             </div>
             </div>
