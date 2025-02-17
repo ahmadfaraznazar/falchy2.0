@@ -35,7 +35,9 @@
 }
 
 .paragraph {
+    
     display: flex;
+    justify-content: center;
     flex-direction: column;
     gap:17px;
 }
@@ -43,6 +45,14 @@
 .hero-paragraph {
     max-width: 355px;
     text-align: justify;
+
+}
+
+.hero-car-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    z-index: 100;
 
 }
 
@@ -80,3 +90,47 @@
     .heading { grid-area: 1 / 1 / 2 / 2; }
     .paragraph { grid-area: 1 / 2 / 2 / 3; }
     .car-image { grid-area: 2 / 1 / 4 / 3; }
+
+
+
+
+
+
+
+
+
+
+/* Hero Form CSS */
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-form-btn {
+    display: inline-block;
+    width: 150px;
+    background-color: #DBA958;
+    color: #000000;
+    padding: 12px 58px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 15px;
+}
+
+.hero-form-input {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+
+    
+}
+
+.hero-form-label {
+    font-size: 18px;
+}
+
