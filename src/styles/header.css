@@ -1,0 +1,69 @@
+
+
+.header {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding-top: 20px;
+    max-width: 1600px;
+    margin: 0 auto;
+    
+}
+
+.header-links {
+    display: flex;
+    gap: 25px;
+    color: #fff;
+}
+
+.header-link {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.header-link:hover {
+    color: #DBA958;
+}
+
+.lang-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    gap:20px;
+
+
+}
+
+.option {
+    display: flex;
+    gap: 5px;
+}
+
+.custom-select {
+    
+    position: relative;
+  }
+  
+  .custom-select select {
+    /* Remove native styling in most browsers */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  
+    padding: 10px 12.5px; /* extra right padding for our arrow */
+    font-size: 16px;
+    border: 1px solid #FFFFFF33;
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.1);
+    color: #fff;
+    
+    /* Add a custom arrow icon using a background image */
+    background-image: url('data:image/svg+xml;utf8,<svg fill="gray" height="20" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px;
+  }
+  

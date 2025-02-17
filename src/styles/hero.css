@@ -1,0 +1,82 @@
+
+.hero-section {
+    background: url(/src/assets/Hero-Background.png);
+    color: #fff;
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-size: cover;
+    
+
+}
+
+.hero-all-content {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.hero-heading {
+    font-family: "Brygada 1918 Variable", sans-serif;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 72.54px;
+    letter-spacing: 0%;
+    max-width: 450px;
+
+}
+
+.vip {
+    font-family: "Brygada 1918 Variable", sans-serif;
+    color: #DBA958;
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    gap:17px;
+}
+
+.hero-paragraph {
+    max-width: 355px;
+    text-align: justify;
+
+}
+
+.open-fleet-btn {
+    display: inline-block;
+    width: 150px;
+    background-color: #DBA958;
+    color: #000000;
+    padding: 11px 28px;
+    font-size: 14px;
+    border: none;
+    border-radius: 15px;
+
+}
+
+.hero-form {
+    border: 1px solid #FFFFFF33;
+    backdrop-filter: blur(30px);
+    background: #FFFFFF1A;
+    border-radius:15px ;
+
+}
+
+
+/*Grid Styling*/
+
+.hero-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .heading { grid-area: 1 / 1 / 2 / 2; }
+    .paragraph { grid-area: 1 / 2 / 2 / 3; }
+    .car-image { grid-area: 2 / 1 / 4 / 3; }
