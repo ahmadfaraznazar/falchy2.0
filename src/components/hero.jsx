@@ -40,12 +40,12 @@ const hero = () => {
 
         <div className='input-container'>
             <label htmlFor="pickup-address" className='hero-form-label'>Pickup Address:</label>
-            <input type="text" id="pickup-address" name="pickup-address" className='hero-form-input' placeholder='enter pickup address' required/>
+            <input type="text" id="pickup-address" name="pickup-address" className='hero-form-input' placeholder='Address, airport or hotel' required/>
         </div>
 
         <div className='input-container' >
            <label htmlFor="dropoff-address" className='hero-form-label' >Dropoff Address:</label>
-           <input type="text" id="dropoff-address" className='hero-form-input' placeholder='enter dropoff address' name="dropoff-address" required/>
+           <input type="text" id="dropoff-address" className='hero-form-input' placeholder='Distance, Hourly or Flat rate' name="dropoff-address" required/>
         </div>
 
         <div className='input-container'>
@@ -64,7 +64,7 @@ const hero = () => {
 
         <button className='hero-form-btn' type="submit">
             <img src={BookingIcon} alt='booking-icon' ></img>
-            <p>Book Now</p>
+            <p className='cta-text'>Book Now</p>
         </button>
         </form>
             

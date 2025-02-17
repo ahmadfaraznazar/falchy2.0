@@ -76,6 +76,11 @@
 
 }
 
+.cta-text {
+    font-size: 14px;
+    font-weight: 500px;
+}
+
 
 /*Grid Styling*/
 
@@ -105,11 +110,20 @@
 form {
     display: flex;
     align-items: center;
+    padding: 10px;
 }
 
 .input-container {
     display: flex;
     flex-direction: column;
+    gap:5px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-left: 2px solid #fff;
+}
+
+.input-container:nth-child(1){
+    border-left: 0;
 }
 
 .hero-form-btn {
@@ -126,11 +140,20 @@ form {
 .hero-form-input {
     background-color: rgba(0, 0, 0, 0);
     border: none;
+    color: #FFFFFF;
+    
+
 
     
 }
 
 .hero-form-label {
     font-size: 18px;
+}
+
+.hero-form-input::placeholder {
+    color: #B4B4B4;
+    font-weight: 500;
+    font-size: 14px;
 }
 
