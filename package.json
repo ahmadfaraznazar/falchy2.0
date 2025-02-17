@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@fontsource-variable/brygada-1918": "^5.1.2",
+    "@fontsource/imperial-script": "^5.1.1",
     "@fontsource/inter": "^5.1.1",
     "@tailwindcss/vite": "^4.0.6",
     "react": "^19.0.0",

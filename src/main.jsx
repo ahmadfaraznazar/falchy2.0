@@ -16,6 +16,10 @@ import "@fontsource/inter";
 import "@fontsource/inter/400.css"; 
 import "@fontsource/inter/400-italic.css"; 
 import 'typeface-cantata-one'
+import "@fontsource/imperial-script"; // Defaults to weight 400
+
+
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

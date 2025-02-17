@@ -1,10 +1,18 @@
 import '../styles/hero.css'
-import HeroImage from '../assets/Hero-Car.png'
+import HeroImage from '../assets/Hero-Car-Updated.png'
 import BookingIcon from '../assets/booking-icon.svg'
+import UpsideRightArrow from '../assets/Upside-Right-Arrow.png'
 
 const hero = () => {
   return (
     <div className='hero-section'>
+
+        <div className='vector-text'>
+             <h1>VIP</h1>
+        </div>
+
+
+
         <div className='hero-all-content'>
         <div className='hero-content'>
 
@@ -16,6 +24,7 @@ const hero = () => {
                     </h1>
             </div>
 
+            <div className='paragraph-div'>
             <div className='paragraph'>
                 <p className='hero-paragraph'>
                 We provide reliable and convenient 24/7 airport taxi services in Italy. Our fleet of modern vehicles and experienced drivers will ensure you have a safe, comfortable, and stress-free journey to your destination. 
@@ -23,11 +32,13 @@ const hero = () => {
 
                 <button className='open-fleet-btn'>
                     Open Fleet
+                    <span> <img src={UpsideRightArrow} alt='upside-right-arrow'></img></span>
                 </button>
+            </div>
             </div>
 
             <div className='car-image'>
-                <image src={HeroImage} alt='car image' className='hero-car-image'></image>
+                <img src={HeroImage} alt='car image' className='hero-car-image'/>
             </div>
             
 
@@ -36,7 +47,7 @@ const hero = () => {
         <div className='hero-form'>
             
 
-        <form>
+        <form className='hero-flex-form'>
 
         <div className='input-container'>
             <label htmlFor="pickup-address" className='hero-form-label'>Pickup Address:</label>
@@ -73,6 +84,11 @@ const hero = () => {
 
 
     </div>
+
+    <div className='green-box'>
+
+    </div>
+    
     </div>
   )
 }

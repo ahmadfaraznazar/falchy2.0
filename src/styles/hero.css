@@ -5,6 +5,8 @@
     background-repeat: no-repeat;
     width: 100vw;
     background-size: cover;
+    position: relative;
+
     
 
 }
@@ -29,6 +31,12 @@
 
 }
 
+.heading {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
 .vip {
     font-family: "Brygada 1918 Variable", sans-serif;
     color: #DBA958;
@@ -42,6 +50,13 @@
     gap:17px;
 }
 
+.paragraph-div {
+    display: flex
+;
+    /* justify-items: end; */
+    justify-self: end;
+}
+
 .hero-paragraph {
     max-width: 355px;
     text-align: justify;
@@ -52,9 +67,13 @@
     width: 100%;
     height: auto;
     object-fit: cover;
-    z-index: 100;
+    
 
 }
+
+.car-image {
+    z-index:4;
+} 
 
 .open-fleet-btn {
     display: inline-block;
@@ -73,6 +92,7 @@
     backdrop-filter: blur(30px);
     background: #FFFFFF1A;
     border-radius:15px ;
+    z-index: 2;
 
 }
 
@@ -107,10 +127,14 @@
 
 /* Hero Form CSS */
 
-form {
+.hero-flex-form {
     display: flex;
     align-items: center;
     padding: 10px;
+}
+
+.hero-form {
+    margin-bottom: 50px;
 }
 
 .input-container {
@@ -147,6 +171,13 @@ form {
     
 }
 
+
+.hero-form-input:focus {
+    border: none;
+    outline: none;
+
+}
+
 .hero-form-label {
     font-size: 18px;
 }
@@ -157,3 +188,35 @@ form {
     font-size: 14px;
 }
 
+.green-box {
+    background: linear-gradient(180deg, #232B24 0%, #0B0E0C 100%);
+    backdrop-filter: blur(14px);
+    height:280px;
+    width: 100vw;
+    border-radius: 25px;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+
+.vector-text {
+    font-family: "Imperial Script";
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.vector-text h1 {
+        font-family: Imperial Script;
+        font-weight: 400;
+        font-size: 507.5px;
+        line-height: 614.07px;
+        letter-spacing: 13%;
+        text-align: justify;
+        color: #DBA95814;
+        margin: auto;
+
+
+}
