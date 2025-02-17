@@ -1,0 +1,77 @@
+.slider-container {
+    text-align: center;
+    padding: 55px;
+    background-color:   #173120 ;
+    margin: 20px auto;
+    overflow: hidden;
+  }
+
+
+  .slider-container h1 {
+    font-family: "Brygada 1918 Variable", sans-serif;
+    font-weight: 700;
+    font-size: 62px;
+    color: azure;
+    margin-top: 0;
+  }
+
+
+.slider-row {
+    display: flex;
+    white-space: nowrap;
+   
+    position: relative;
+    height: 50px;
+  }
+
+  .slider-row:nth-child(2) {
+    direction: rtl; /* Reverse direction for the second row */
+  }
+
+  .slider-row a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 38px;
+    color:#A3BBAC;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+
+  .slider-row a span{
+ 
+   
+    font-size: 50px;
+   
+  }
+
+  .slider-row a:hover {
+    color: #DBA958;
+    cursor: url('../assets/CustomCursor.svg'), auto;
+  }
+
+  .slider-row.animate {
+    animation: slide-left 40s linear infinite;
+  }
+
+  .slider-row:nth-child(2).animate {
+    animation: slide-right 40s linear infinite;
+  }
+
+  @keyframes slide-left {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  @keyframes slide-right {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(50%);
+    }
+  }

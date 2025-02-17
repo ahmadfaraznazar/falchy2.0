@@ -1,0 +1,95 @@
+* {
+    font-family: "Inter";
+}
+
+.about-us-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin: 50px auto;
+    max-width: 1200px;
+    
+}
+
+
+
+.credibilitity-boxes {
+    display: flex;
+
+}
+
+.about-us-intro {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+}
+
+.about-us-intro h1 {
+    font-family: "Brygada 1918 Variable", sans-serif;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 72.54px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #28382E;
+}
+
+.about-us-intro p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+}
+
+
+.about-us-credibility {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+
+.credibilitity-boxes {
+    display: flex;
+    gap:20px;
+}
+.credibilitity-boxes div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 37px 0;
+    min-width: 265px;
+    background-color: #28382E;
+    color: #DBA958;
+    border-radius: 25px;
+
+}
+
+.credibilitity-boxes div h1{
+    font-family: "Brygada 1918 Variable", sans-serif;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 72.54px;
+    margin: 0;
+    
+
+}
+
+.credibilitity-boxes div p{
+   
+    font-size: 14px;
+    text-align: justify;
+}
+
+
+@media (max-width:1200px){
+
+}
