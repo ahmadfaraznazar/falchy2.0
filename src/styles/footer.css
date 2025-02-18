@@ -149,6 +149,37 @@ p span {
 }
 
 
+@media (max-width:1200px){
+    .footer-section {
+        padding: 70px 40px 40px;
+    }
+
+    .legal div {
+        gap: 15px;
+    }
+}
+
+@media (min-width:768px){
+    .parent {
+        column-gap: 30px;
+            
+        }
+        
+
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .news-paragraph {
+        font-size: 14px;
+    }
+
+    .brand-tab {
+        
+        justify-content: unset;
+        gap:30px;
+    }
+  }
+
 
 @media (max-width:768px) {
     .parent {
@@ -178,12 +209,22 @@ p span {
 
         .copyright { grid-area: 12 / 1 / 13 / 3; 
                      justify-content: center;
-                     align-items: center; }
+                     align-items: baseline; }
 
 
         .footer-section {
            padding: 70px 23px 40px; 
-        }              
+        } 
+        
+        
+        .news-letter {
+            width: 100%;
+            text-align: left;
+        }
+
+        .email-input {
+            width: 100%;
+        }
         
          
 }

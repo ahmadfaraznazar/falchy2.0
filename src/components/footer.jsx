@@ -12,7 +12,7 @@ const footer = () => {
                 </div>
 
                 <div className='news-letter'>
-                <p className=''>Subscribe to our newsletter</p>
+                <p className='news-paragraph'>Subscribe to our newsletter</p>
                 <input type="text" className='email-input' placeholder="Email" />
                 </div>
                 
