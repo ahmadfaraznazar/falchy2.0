@@ -81,7 +81,7 @@ const hero = () => {
         
 
         <button className='hero-form-btn' type="submit">
-            <img src={BookingIcon} alt='booking-icon' ></img>
+            <img src={BookingIcon} className='booking-icon' alt='booking-icon' ></img>
             <p className='cta-text'>Book Now</p>
         </button>
         </form>

@@ -172,8 +172,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
         .hero-flex-form {  
             flex-direction: column;
-            padding-left:30px;
-            padding-right: 30px;
+            padding: 30px !important;
+            align-items: baseline !important;
 
         }
 
@@ -181,6 +181,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
            
              padding: 0;
              border: 0 !important;
+             padding-bottom: 30px;
+             align-items: baseline;
         }
 
         .hero-car-image {
@@ -192,7 +194,17 @@ input[type="date"]::-webkit-calendar-picker-indicator {
         }
 
         .hero-form-btn {
-            width: 100% !important; 
+            width: 100% !important;
+            display: flex ! IMPORTANT;
+            align-items: center;
+            justify-content: center; 
+            gap: 10px;
+        }
+
+        .booking-icon {
+            width: 23px;
+            height: 23px;
+            
         }
 
     
