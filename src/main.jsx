@@ -5,6 +5,7 @@ import AboutUs from './components/aboutus.jsx'
 import Slider from './components/marqueslider.jsx'
 import Header from './components/header.jsx'
 import Hero from './components/hero.jsx'
+import LandingBanner from './components/landingBanner.jsx'
 import Footer from './components/footer.jsx'
 
 
@@ -28,6 +29,7 @@ createRoot(document.getElementById('root')).render(
     <Hero/>  
     <AboutUs/>
     <Slider/>
+    <LandingBanner/>
     <Footer/>
   </StrictMode>,
 )

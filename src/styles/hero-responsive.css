@@ -1,0 +1,9 @@
+
+/* @media (max-width: 480px) {
+
+    .hero-content {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,1fr);
+    }
+    
+} */

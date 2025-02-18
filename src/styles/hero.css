@@ -35,6 +35,7 @@
     line-height: 72.54px;
     letter-spacing: 0%;
     max-width: 450px;
+    margin-top: 0;
 
 }
 
@@ -133,7 +134,69 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     .paragraph { grid-area: 1 / 2 / 2 / 3; }
     .car-image { grid-area: 2 / 1 / 4 / 3; }
 
+@media (max-width:480px) {
 
+    .hero-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        align-items: start;
+        grid-row-gap: 0px;
+        }
+        
+        .heading { grid-area: 1 / 1 / 2 / 2; }
+        .car-image { grid-area: 2 / 1 / 3 / 2; }
+        .paragraph { grid-area: 3 / 1 / 4 / 2; }
+
+
+        .green-box {
+            display: none;
+        }
+
+        .paragraph-div {
+            justify-self: center;
+        }
+
+        .hero-heading {
+            
+            font-weight: 700;
+            font-size: 54px;
+            text-align: center;
+        
+        }
+
+        .vector-text h1 {
+            display: none;
+        }
+
+        .hero-flex-form {  
+            flex-direction: column;
+            padding-left:30px;
+            padding-right: 30px;
+
+        }
+
+        .input-container {
+           
+             padding: 0;
+             border: 0 !important;
+        }
+
+        .hero-car-image {
+            width: 95%;
+        }
+
+        .hero-form {
+            width: 90%;
+        }
+
+        .hero-form-btn {
+            width: 100% !important; 
+        }
+
+    
+}
 
 
 

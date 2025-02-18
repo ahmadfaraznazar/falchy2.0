@@ -1,0 +1,71 @@
+.landing-banner-section {
+    background: linear-gradient(90deg, #1C6738 0%, #00230D 100%);
+    padding: 30px 0;
+}
+
+
+.landing-banner-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1600px;
+    margin: 0 auto;
+    
+}
+
+
+.landing-banner-content {
+
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    
+    
+}
+
+.landing-banner-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+ 
+.landing-banner-button {
+    display: inline-block;
+    width: 150px;
+    background-color: #DBA958;
+    color: #000000;
+    padding: 11px 28px;
+    border: none;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+
+}
+
+.landing-banner-button:hover {
+    background-color: rgba(219, 169, 88, .9)
+}
+
+.landing-banner-heading {
+    margin: 0;
+    font-family: "Brygada 1918 Variable", sans-serif;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 72.54px;
+    letter-spacing: 0%;
+    color: #fff;
+    max-width: 480px;
+
+
+}
+
+.landing-banner-paragraph {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.94px;
+    letter-spacing: 0%;
+    text-align: justify;
+    color: #fff;
+
+
+}

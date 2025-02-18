@@ -1,7 +1,9 @@
 import '../styles/hero.css'
+import '../styles/hero-responsive.css'
 import HeroImage from '../assets/Hero-Car-Updated.png'
 import BookingIcon from '../assets/booking-icon.svg'
 import UpsideRightArrow from '../assets/Upside-Right-Arrow.png'
+
 
 const hero = () => {
   return (
