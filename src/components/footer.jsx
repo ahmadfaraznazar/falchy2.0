@@ -25,7 +25,7 @@ const footer = () => {
                 <a href='#'>Legal Notice</a>
              </div>   
             </div>
-            <div className="div3 link-section">
+            <div className="div3 link-section top-destination">
                 <h5 className='link-heading'>Top Destinations</h5>
 
                 <div className='links'>
@@ -39,7 +39,7 @@ const footer = () => {
                 </div>
                 
             </div>
-            <div className="div4 link-section">
+            <div className="div4 link-section explore">
             <h5 className='link-heading'>Explore</h5>
 
                     <div className='links'>
@@ -52,7 +52,7 @@ const footer = () => {
 
                     </div>    
             </div>
-            <div className="div5 link-section"> 
+            <div className="div5 link-section trending-rides"> 
 
             <h5 className='link-heading'>Trending Rides</h5>
 
@@ -66,7 +66,7 @@ const footer = () => {
 
                     </div>
             </div>
-            <div className="div6 link-section">
+            <div className="div6 link-section get-in-touch">
                 
             <h5 className='link-heading'>Get in Touch</h5>
 
